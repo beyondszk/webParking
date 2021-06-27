@@ -1,0 +1,74 @@
+<!--index.wxml-->
+
+<view class="map-box">
+  <map id="myMap" show-location scale='12' bindmarkertap="openDetaiFun" class='mapclass' controls='{{controls}}' markers="{{markers}}" longitude="{{longitude}}" latitude="{{latitude}}" >
+    <view class="swiper-tab">
+		<view class="swiper-tab-list " >导航</view>
+	</view>
+    <cover-view class="section-search">
+      <cover-image src='../image/search.png' class='search-box' bindtap="searchFun"></cover-image>
+      <cover-view class="txt" bindtap="searchFun">目的地查找</cover-view>
+      <cover-view class="section-select" bindtap="choseFun">
+        <cover-view class="picker">
+          <cover-view class='t'>确定</cover-view>
+          <!-- <cover-image  class="ico" /> -->
+        </cover-view>
+      </cover-view>
+    </cover-view>
+    <cover-view class='user-box' bindtap='touserFun'>
+      <cover-image class="img" src='../image/usercen.png' mode="widthFix"></cover-image>
+    </cover-view>
+    <cover-view class='ding-box' bindtap="rebackFun">
+      <cover-image class="img" src='../image/ding.png' mode="widthFix"></cover-image>
+    </cover-view>
+    <cover-view class='p-box'>
+      <cover-image class="img" src='../image/p.png' mode="widthFix"></cover-image>
+    </cover-view>
+    <cover-view class='kefu-box'>
+      <cover-image class="img" src='../image/kefu.png' mode="widthFix"></cover-image>
+    </cover-view>
+    <cover-view class='sao-box' bindtap="addGoosInfo">
+      <cover-image class="img" src="../image/sao.png" mode="widthFix"></cover-image>
+      <cover-view class='sao'>扫码开锁</cover-view>
+    </cover-view>
+    <cover-view>
+      <cover-view class="close-pop-mb" bindtap="closePopFun"></cover-view>
+    </cover-view>
+
+    <cover-view class="pop-msg-box"  id="Jshowdown">
+        <cover-view class="tit">
+          <cover-image class="ico" src="../image/adrico.png"/>
+          {{detail.address}}
+        </cover-view>
+        <cover-view class='pop-main'>
+          <cover-view class="border"></cover-view>
+          <cover-view class='item'>
+            <cover-view class="t">¥</cover-view>
+            <cover-view class='num'>20</cover-view>
+            <cover-view  class="t">/时</cover-view>
+            <cover-view class='txt'>价格</cover-view>
+          </cover-view>
+
+          <cover-view class='item'>
+            <cover-view class="t">¥</cover-view>
+            <cover-view class='num'>13.2</cover-view>
+            <cover-view class="t">km</cover-view>
+            <cover-view class='txt'>距离</cover-view>
+          </cover-view>
+        </cover-view>
+        <cover-view class='pop-ps'>鼓楼停车点</cover-view>
+        <cover-view class='pop-compant'>归属单位：软件工程第六组</cover-view>
+
+        <cover-view class='pop-btn'>
+          <cover-view class="border"></cover-view>
+          <cover-view class="btn2">车位数:330</cover-view>
+          <cover-view class="btn" bindtap="gudieFun">导航</cover-view>
+        </cover-view>
+      </cover-view>
+      
+    
+  
+
+  </map>
+
+</view>

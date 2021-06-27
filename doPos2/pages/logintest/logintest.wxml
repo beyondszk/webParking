@@ -1,0 +1,53 @@
+<!--pages/w_my_payment_record/w_my_payment_record.wxml-->
+<view class="swiper-tab">
+		<view class="swiper-tab-list ">首页</view>
+</view>
+
+<!-- 缴费信息  -->
+<!-- <block wx:if="{{payment==''}}">
+  <view class='no-payment'>
+    <text class='no-0payment-desc'>暂无缴费记录</text>
+  </view>
+</block>
+<block wx:else>
+  <view class='payment' wx:for="{{payment}}">
+    <view class='payment-car'>
+      <text class='payment-car-number'>{{item.car_number}}</text>
+      <text class='payment-car-money'>¥{{item.car_money}}</text>
+    </view>
+    <view class='payment-area'>
+      <text class='payment-area-info'>{{item.payment_area}}</text>
+    </view>
+    <view class='payment-date'>
+      <text class='payment-date-pay-time'>订单号：{{item.pay_no}}</text>
+      <text class='payment-date-stop-time'>{{item.stop_time}}</text>
+    </view>
+  </view>
+</block> -->
+
+<!-- <block wx:if="{{payment==''}}">
+  <view class='no-payment'>
+    <text class='no-0payment-desc'>暂无缴费记录</text>
+  </view>
+</block> -->
+<!-- carno:null,
+    ordermoney:null,
+    ordersno:null,
+    posdes:null,
+    postime:null -->
+<block >
+  <view class='payment' >
+    <view class='payment-car'>
+      <text class='payment-car-number'>{{carno}}</text>
+      <text class='payment-car-money'>¥{{ordermoney}}</text>
+    </view>
+    <view class='payment-area'>
+      <text class='payment-area-info'>{{posdes}}</text>
+    </view>
+    <view class='payment-date'>
+      <text class='payment-date-pay-time'>订单号：{{ordersno}}</text>
+      <text class='payment-date-stop-time'>{{postime}}小时</text>
+    </view>
+  </view>
+</block>
+

@@ -1,0 +1,17 @@
+
+
+page {
+  width: 100%;
+  height: 100%;
+}
+page map {
+  width: 100%;
+  height: 100%;
+}
+
+.fontui {
+  color: crimson;
+  padding-top: 6px;
+  font-weight: 400;
+  text-align: center;
+}

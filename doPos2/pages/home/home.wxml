@@ -1,0 +1,79 @@
+<view class="bg">
+  
+  <view class="top">
+    <view wx:if="{{isShowp}}">
+      <button class="" bindtap="bindViewTap3">请点击登陆</button>
+    </view>
+    
+    <view class="userinfo">
+      <!-- <open-data type="userAvatarUrl"   class="userinfo-avatar" mode="cover"></open-data> -->
+      <!-- <view class="userinfo-avatar" src="{{avatarUrl}}"></view> -->
+      <image class="userinfo-avatar" src="{{avatarUrl}}" background-size="cover"></image>
+      <view wx:if="{{isShow}}" class="userinfo-info">
+        <!-- <open-data type="userNickName"  class="userinfo-nickname" lang="zh_CN"></open-data> -->
+        <view class="userinfo-nickname">{{nickName}}</view>
+        <block>
+          <view lang="zh_CN">{{province}}</view>
+          <view lang="zh_CN">{{city}}</view>
+        </block>
+      </view>
+    </view>
+   
+    <!-- 斜背景 -->
+    <view class='bg1'></view>
+    <view class='bg2'></view>
+    <view class='bg3'></view>
+    <view class='bg4'></view>
+    <view class='bg5'></view>
+  </view>
+
+</view>
+<view class="hr"></view>
+
+<view class='item' bindtap='bindViewTap1'>
+  <view class="title">个人信息绑定</view>
+  <view class="detail2">
+    <text>></text>
+  </view>
+</view>
+<view class="line"></view>
+<view class='item' bindtap="bindViewTap4">
+  <view class="title">个人停车记录</view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</view>
+<view class="hr"></view>
+
+<view class="line"></view>
+<view class="item"  bindtap="bindViewTap5">
+  <view class="title">缴费</view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</view>
+<!-- <view class='item' bindtap='bindViewTap2'>
+  <view class="title">充值中心</view>
+  <view class="detail2">
+    <text>></text>
+  </view>
+</view> -->
+<view class="line"></view>
+<view class="item">
+  <view class="title">Ai智能识车</view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</view>
+<view class="line"></view>
+<view class="item" bindtap='bindViewTap'>
+  <view class="title">
+    客服中心
+  </view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</view>
+<view class="line"></view>
+
+<view class="hr"></view>

@@ -1,0 +1,3 @@
+<picker mode='selector' range='{{payData}}' value='{{i}}' bindchange='payChange'>
+　<view class='picker'>{{payData[i]}}</view>
+</picker>

@@ -1,0 +1,17 @@
+<!--pages/recharge/recharge.wxml-->
+<view class='pay'>
+<view class="b_head">账户充值</view>
+<view class='money_charge'>
+<button class="money_box">10元</button>
+<button class="money_box" >30元</button>
+<button class="money_box" >50元</button>
+</view>
+<view class='money_charge'>
+  <button class="money_box">100元</button>
+  <button class="money_box">300元</button>
+  <button class="money_box">500元</button>
+</view>
+<button class="money_box1">支付</button>
+
+</view>
+

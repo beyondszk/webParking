@@ -1,0 +1,117 @@
+<view>
+
+	<view class="swiper-tab">
+		<view class="swiper-tab-list ">首页</view>
+	</view>
+<view class="dff">
+	<swiper  autoplay="{{true}}" circular="{{true}}" indicator-dots="{{true}}" interval="2000">
+		<swiper-item>
+			<image mode="widthFix" src="https://i02piccdn.sogoucdn.com/54507a2d59f043f9" />
+		</swiper-item>
+		<swiper-item>
+			<image mode="widthFix" src="https://i01piccdn.sogoucdn.com/286723ad1b4068dc" />
+		</swiper-item>
+		<swiper-item>
+			<image mode="widthFix" src="https://i02piccdn.sogoucdn.com/6e96fb58b07f8d25" />
+		</swiper-item>
+	</swiper>
+</view>
+	
+
+	<view class="nav">
+		<view class="nav-item" bindtap="stop" >
+			<view>
+				<image src="https://ftp.bmp.ovh/imgs/2021/05/25c0f4086ee6abc0.png" style="height:25px;width:23px"></image>
+			</view>
+			<view>扫码关闸</view>
+		</view>
+		<view class="nav-item">
+			<view>
+				<image src="https://ftp.bmp.ovh/imgs/2021/05/0f8fcaa381465f28.png" style="height:25px;width:23px"></image>
+			</view>
+			<view>导航</view>
+		</view>
+		<view class="nav-item">
+			<view>
+				<image src="https://ftp.bmp.ovh/imgs/2021/05/1be6ddd0bb2930fb.png" style="height:25px;width:23px"></image>
+			</view>
+			<view>汽车之家</view>
+		</view>
+		<view class="nav-item">
+			<view>
+				<image src="https://ftp.bmp.ovh/imgs/2021/05/6dfa50eadb0ea3f4.png" style="height:25px;width:23px"></image>
+			</view>
+			<view>ai识车</view>
+		</view>
+	</view>
+	<view class="hr"></view>
+
+
+
+
+	<view class="weui-panel weui-panel_access">
+
+		<view class="weui-panel__hd">资讯栏</view>
+		<view class="weui-panel__bd">
+			<a class="weui-media-box weui-media-box_appmsg">
+				<view class="weui-media-box__hd">
+					<image class="weui-media-box__thumb"
+						src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2393997883,2104439604&fm=26&gp=0.jpg" alt>
+					</image>
+				</view>
+				<view class="weui-media-box__bd">
+					<h4 class="weui-media-box__title">新能源汽车</h4>
+					<view class="weui-media-box__desc">
+						新能源汽车是指采用非常规的车用燃料作为动力来源（或使用常规的车用燃料、采用新型车载动力装置），综合车辆的动力控制和驱动方面的先进技术，形成的技术原理先进、具有新技术、新结构的汽车。
+						新能源汽车包括四大类型混合动力电动汽车（HEV）、纯电动汽车（BEV，包括太阳能汽车）、燃料电池电动汽车（FCEV）、其他新能源（如超级电容器、飞轮等高效储能器）汽车等。非常规的车用燃料指除汽油、柴油之外的燃料。
+						2020年11月，国务院办公厅印发《新能源汽车产业发展规划（2021—2035年）》，要求深入实施发展新能源汽车国家战略，推动中国新能源汽车产业高质量可持续发展，加快建设汽车强国。</view>
+				</view>
+			</a>
+			<a class="weui-media-box weui-media-box_appmsg">
+				<view class="weui-media-box__hd">
+					<image class="weui-media-box__thumb"
+						src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3746276000,4262827992&fm=26&gp=0.jpg" alt>
+					</image>
+				</view>
+				<view class="weui-media-box__bd">
+					<h4 class="weui-media-box__title">绿色环保汽车</h4>
+					<view class="weui-media-box__desc">
+						汽车是我们小伙伴们基本都很喜爱的出行工具，对我们来说有了汽车就等于有了非常多的便利。不但仅能够在时间上体验到还能在舒适度上体验到。那么各位小伙伴们小伙伴们对新能源汽车这一汽车车型了解过吗？近两年内新能源汽车让更多的小伙伴们认识它，还有非常多的小伙伴们会问新能源汽车代替化石燃料的原因是多么呢？今天汽车小编就为小伙伴们分享一下吧。
+
+						新能源汽车代替化石燃料的原因：新能源汽车成主流
+
+
+
+						2017年9月9日中国汽车产业发展国际论坛上，工信部副部长辛国斌发布了一个大消息：
+
+						根据全球汽车产业智能化、电动化的转变趋势，我国为抢占新一轮制高点，已经开始起动产痛能源车停产停售时间表的研究啦！！！
+
+						在中国宣布这一消息以前，有这么几个国家早已经出台了禁售燃油车时间表：
+
+						挪威宣布，在2025年以前禁止销售化石燃料汽车。
+
+						荷兰宣布，在2025年以前禁止销售化石燃料汽车。
+
+						印度宣布，在2030年以前禁止销售化石燃料汽车。
+
+						英国宣布，从2040年开始全方位禁止销售汽油车和柴油车。
+
+						法国宣布，从2040年开始全方位禁止销售汽油车和柴油车。</view>
+				</view>
+			</a>
+		</view>
+		<view class="weui-panel__ft">
+			<a class="weui-cell weui-cell_active weui-cell_access weui-cell_link">
+				<view class="weui-cell__bd">查看更多</view>
+				<text class="weui-cell__ft"></text>
+			</a>
+		</view>
+	</view>
+
+	<view class="weui-footer">
+		<view class="weui-footer__links">
+			<a class="weui-footer__link">底部声明</a>
+		</view>
+		<view class="weui-footer__text">Copyright沈兆坤 &copy; 2021-2099 weui.io</view>
+	</view>
+</view>
