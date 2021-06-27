@@ -1,6 +1,6 @@
 # webParking
 
-技术：小程序+layui+thinkphp5
+技术：小程序+layui+thinkphp5（联系方式 qq： 1439862409）
 小程序做前端，layui做后台管理的前端，tp5做后台接口
 ![image](https://github.com/beyondszk/webParking/blob/main/img/40725796.jpg?raw=true)
 ![image](https://github.com/beyondszk/webParking/blob/main/img/1882512206.jpg?raw=true)
