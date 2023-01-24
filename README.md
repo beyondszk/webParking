@@ -1,4 +1,4 @@
-# webParking
+# webParking 停车小程序
 
 技术：小程序+layui+thinkphp5（联系方式微信：kungenkeji）
 小程序做前端，layui做后台管理的前端，tp5做后台接口
